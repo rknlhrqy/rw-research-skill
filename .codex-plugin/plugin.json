@@ -1,0 +1,18 @@
+{
+  "name": "rw-research-skill",
+  "version": "0.4.0",
+  "description": "研究问题、文献、证据、设计、写作和投稿工作流。",
+  "author": {
+    "name": "Roland Wayne"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "RW Research Skill",
+    "shortDescription": "Route and carry out research workflows.",
+    "longDescription": "RW Research Skill provides twelve standalone workflows for research questions, literature discovery, paper extraction, evidence mapping, review methods, research design, review, academic writing, author tone, journal submission, and tool selection.",
+    "developerName": "Roland Wayne",
+    "category": "Education",
+    "capabilities": [],
+    "defaultPrompt": "Use $rw-research-router to identify the current research bottleneck and route this request to one research skill."
+  }
+}

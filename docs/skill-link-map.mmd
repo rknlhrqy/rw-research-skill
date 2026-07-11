@@ -1,0 +1,39 @@
+flowchart LR
+  router["rw-research-router"]
+  question["rw-research-question"]
+  discovery["rw-literature-discovery"]
+  extractor["rw-paper-extractor"]
+  evidence["rw-evidence-map"]
+  review["rw-review-methods"]
+  design["rw-research-design"]
+  referee["rw-research-referee"]
+  write["rw-phd-write"]
+  tone["rw-phd-tone"]
+  submission["rw-journal-submission"]
+  tools["rw-research-lab-router"]
+
+  router --> question
+  router --> discovery
+  router --> tools
+  question --> discovery
+  question --> design
+  discovery --> extractor
+  discovery --> evidence
+  extractor --> evidence
+  extractor --> review
+  evidence --> design
+  evidence --> write
+  review --> evidence
+  review --> referee
+  design --> referee
+  design --> write
+  referee --> design
+  referee --> write
+  write --> tone
+  write --> referee
+  write --> submission
+  tone --> write
+  submission --> referee
+  tools --> discovery
+  tools --> review
+  tools --> design

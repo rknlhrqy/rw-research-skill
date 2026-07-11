@@ -1,0 +1,24 @@
+{
+  "name": "rw-research-skill",
+  "version": "0.4.0",
+  "license": "Apache-2.0",
+  "channel": "preview",
+  "skills": [
+    "rw-research-router",
+    "rw-research-question",
+    "rw-literature-discovery",
+    "rw-evidence-map",
+    "rw-paper-extractor",
+    "rw-review-methods",
+    "rw-research-design",
+    "rw-research-referee",
+    "rw-phd-write",
+    "rw-phd-tone",
+    "rw-journal-submission",
+    "rw-research-lab-router"
+  ],
+  "release_policy": {
+    "scope": "只发布科研 Skill。",
+    "sources": "使用随 Skill 提供的方法和公开来源入口，不包含私人工作区、真实业务材料或个人研究材料。"
+  }
+}
